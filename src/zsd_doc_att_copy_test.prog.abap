@@ -9,6 +9,9 @@
 report zsd_doc_att_copy_test.
 
 parameters: p_file   type        rlgrap-filename,
+* insert new lines
+            p_init_type type string,
+* end insert lines
             p_branch type        smud_guid22 no-display,
             p_desc   type        smud_root_occ_desc.
 
